@@ -40,32 +40,30 @@
         </script>
     </div>
     <!-- header -->
-    <div class="wrapper">
-        <nav data-toggled="false" data-transitionable="false">
+    <nav data-toggled="false" data-transitionable="false">
         <div id="nav-logo-section" class="nav-section">
-            <a href="#home">
-                <img src="./logo_a.svg" alt="logo">
+            <a href="#">
+                <i class="fa-solid fa-dumpster-fire"></i>
             </a>
         </div>
         <div id="nav-mobile-section">
-
             <div id="nav-link-section" class="nav-section">
-                <a href="#about">ABOUT</a>
-                <a href="#work">WORK</a>
+                <a href="#">ABOUT</a>
+                <a href="#">WORK</a>
             </div>
             <div id="nav-social-section" class="nav-section">
-                <a href="#contact">
-                    <i class="fa-regular fa-address-book"></i>     
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.youtube.com/c/Hyperplexed" target="_blank">
+                    <i class="fa-brands fa-youtube"></i>
                 </a>
                 <a href="#">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a href="#" target="_blank">
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-codepen"></i>
                 </a>
             </div>
-            <div id="nav-resume-section" class="nav-section">
-                <a href="#">RESUME</a>
+            <div id="nav-contact-section" class="nav-section">
+                <a href="#">GET IN TOUCH</a>
             </div>
         </div>
         <button id="nav-toggle-button" type="button" onclick="handleNavToggle()">
@@ -73,129 +71,89 @@
             <i class="fa-solid fa-bars"></i>
         </button>
     </nav>
-    </div>
-        
-
     
-    <div class="container">
-
-    <!-- home section -->
-    <section class="home" id="home">
-        <div class="home-container">
-            <div class="info">
-                <p>Hello there👋,</p>
-                <h1>I am Cristi!</h1>
-                <h1>
-                    I don't browse websites. I
-                    <span class="magic">
-                        <span class="magic-star">
-                            <svg viewBox="0 0 512 512">
-                                <path
-                                    d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z" />
-                            </svg>
-                        </span>
-                        <span class="magic-star">
-                            <svg viewBox="0 0 512 512">
-                                <path
-                                    d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z" />
-                            </svg>
-                        </span>
-                        <span class="magic-star">
-                            <svg viewBox="0 0 512 512">
-                                <path
-                                    d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z" />
-                            </svg>
-                        </span>
-                        <span class="magic-text">create </span>
-                    </span>
-                    them.
-                </h1>
-                <h2>I'm a full-time student, and ocassionallty a Web Developer.</h2>
-                <h2>Currently, I am open for any collaboration!</h2>
-                </h2>
-                <div class="buttons">
-                    <a href="#contact" class="btn btn-2">Get in touch</a>
-                </div>
-            </div>
-        </div>
-    </section>
-        <section class="about" id="about">    
-
-            <h1>About me</h1>
-            <!--<img src="./cristi.png">-->
-            <div class="info-about">
+    <main>
+        <article data-index="0" data-status="active">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
                 <p>
-                    Hello! My name is Cristi and I enjoy learning and building web things.
-                    My passion for programming started back in 2019, my first year of hight-school. 
-                    I started with C++ for data structures and algorithms.
-                    Then i discovered the power of Web Development, and how many awesome
-                    things can be built with it.
+                    This is a recreation (from scratch) of <a class="source-link"
+                        href="https://www.dylanbrouwer.design/work" target="_blank">dylanbrouwer.design/work</a>. See how I
+                    did it <a class="yt-link" href="https://youtu.be/nG2IyH43xMU" target="_blank"><i
+                            class="fa-brands fa-youtube"></i></a>.
                 </p>
-                <br>
-                <p>
-                    Fast-forward today, I'm still learning by building this website and other projects for my portfolio.
-                    My main focus these days is to have a solid knowlege of HTML, CSS and JS,
-                    and then to learn some frameorks.
-                </p>            
-
-                    <p>
-                        There are a few technologies I've been working with recently:
-                <div class="gridlanguages">
-                        <ul>
-                            <li>
-                                C++
-                            </li>
-                            <li>
-                                HTML
-                            </li>
-                            <li>
-                                CSS
-                            </li>
-                            <li>
-                                JS
-                            </li>
-                        </ul>
-                    </p>
-                </div>
             </div>
-        <div class="img">
-            <img src="./cristi.png" alt="">
-        </div>
-    </section>
-    <section class="work" id="work">
-        <h1>Take a look at my projects!</h1>
-        <div class="projects">
-            <p>Responsive To Do app</p>
-            <p>Whether app</p>
-            <p>Responsive e-commerce website</p>
-            <p>Blog</p>
-        </div>
-    </section>
-    <section class="contact" id="contact">
-       <h1>Get in touch</h1>
-       <p>Good news! I am open for any opportunies! <br>
-        So, if you would like to work with me, <br> or you have any questions, don't be afraid and
-        <br>
-        <a href="mailto:cristiandanielboabes@gmail.com">
-            <button class="contact-btn">
-                say hello :)
-            </button>
-        </a>
-        </p>
-        <div class="links">
-            <ul>
-                <i class="fa-brands fa-linkedin fa-2x"></i>
-                <i class="fa-brands fa-github fa-2x"></i>
-                <i class="fa-brands fa-codepen fa-2x"></i>
-                <i class="fa-brands fa-instagram fa-2x"></i>
-            </ul>
-           
-        </div>
-        <!-- <img src="./cristi2.png" alt=""> -->
-        <div class="footer" id="footer">
-            <h3>Designed & Built by Cristian-Daniel Boabes © 2022</h3>
-        </div>
-    </section>
-    </div>
+            <div class="article-title-section article-section">
+                <h2>Recreation From Scratch</h2>
+                <i class="fa-light fa-plus-large"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-light fa-arrow-left-long"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-light fa-arrow-right-long"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="1" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>A place where books hang out waiting to be grabbed. But don't be too grabby now, ya hear.</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Wicked Cool Library Shelves</h2>
+                <i class="fa-light fa-plus-large"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-light fa-arrow-left-long"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-light fa-arrow-right-long"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="2" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>The neatest lighthouse you ever saw. Ehh, actually it's kind of messy. But that's why the pic is of the
+                    outside.</p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Neato Toledo Lighthouse</h2>
+                <i class="fa-light fa-plus-large"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-light fa-arrow-left-long"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-light fa-arrow-right-long"></i>
+                </button>
+            </div>
+        </article>
+        <article data-index="3" data-status="inactive">
+            <div class="article-image-section article-section"></div>
+            <div class="article-description-section article-section">
+                <p>
+                    The blobiest of blobs nestled deep in the heart of outer space. Well, technically the universe is both
+                    infinite and homogeneous so there isn't really a heart, per se.
+                </p>
+            </div>
+            <div class="article-title-section article-section">
+                <h2>Super Space Blob</h2>
+                <i class="fa-light fa-plus-large"></i>
+            </div>
+            <div class="article-nav-section article-section">
+                <button class="article-nav-button" type="button" onclick="handleLeftClick()">
+                    <i class="fa-light fa-arrow-left-long"></i>
+                </button>
+                <button class="article-nav-button" type="button" onclick="handleRightClick()">
+                    <i class="fa-light fa-arrow-right-long"></i>
+                </button>
+            </div>
+        </article>
+    </main>
 </body> 
 </html>
