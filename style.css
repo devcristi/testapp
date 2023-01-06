@@ -164,6 +164,7 @@ a:hover {
 /*\*/
 
 nav {
+    top: 0;
 /*     animation: slide-in-top 2s;
     animation-delay: 5s; */
     position: fixed;
@@ -174,6 +175,7 @@ nav {
 }
 
 nav .nav-section {
+    top: 0;
     position: fixed;
     padding: 1rem 3.5rem;
     display: flex;
@@ -185,6 +187,7 @@ nav .nav-section {
 
 #nav-mobile-section {
     position: fixed;
+    top:0;
     display: flex;
     flex-basis: calc(100% * (2 / 3));
     z-index: 2;
