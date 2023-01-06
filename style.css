@@ -166,6 +166,7 @@ a:hover {
 nav {
 /*     animation: slide-in-top 2s;
     animation-delay: 5s; */
+    position: fixed;
     display: flex;
     width: 100%;
     border-bottom: 1px solid var(--border-color);
@@ -173,6 +174,7 @@ nav {
 }
 
 nav .nav-section {
+    position: fixed;
     padding: 1rem 3.5rem;
     display: flex;
     gap: 1rem;
@@ -182,6 +184,7 @@ nav .nav-section {
 }
 
 #nav-mobile-section {
+    position: fixed;
     display: flex;
     flex-basis: calc(100% * (2 / 3));
     z-index: 2;
