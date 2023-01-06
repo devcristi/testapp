@@ -164,13 +164,12 @@ a:hover {
 /*nav*/
 
 nav {
-    /* animation: slide-in-top 2s;
-    animation-delay: 5s; */
-    /* position: fixed; */
+    animation: slide-in-top 2s;
+    animation-delay: 5s;
     display: flex;
     width: 100%;
     border-bottom: 1px solid var(--border-color);
-    /* --webkit-transform: translateZ(0); */
+    --webkit-transform: translateZ(0);
 }
 
 nav .nav-section {
@@ -264,8 +263,8 @@ nav .nav-section {
     display: flex;
     align-items: center;
     margin-top: 100px;
-    /* animation: slide-top 2s;
-    animation-delay: 5s; */
+    animation: slide-top 2s;
+    animation-delay: 5s;
 }
 
 .home-container .info h1 {
